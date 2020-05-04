@@ -6,7 +6,7 @@ public class Activity02 {
         List <Double> numbers = new ArrayList <Double> ();
 
         // random creates a number between 0 and 1
-        // round removes the decimal
+        // round will remove the decimal
         // finally we cast it to long
         long numNodes = (long) Math.round(Math.random() * 10000);
 
@@ -17,7 +17,7 @@ public class Activity02 {
             numbers.add(Math.random() * 100);
         }
 
-        // create an iterator to look through the data
+        // we will create an iterator to look through the data
         Iterator iterator = numbers.iterator();
 
         Double average = 0.0;

@@ -6,7 +6,8 @@ public class AnalyzeInput {
         ArrayList <String> text = new ArrayList <String> ();
         Console cons;
         String line = "";
-
+        //It is used to control the loop so when we enter * so we will be able to stop taking input
+        
         while (!line.equals("*")
                 && (cons = System.console()) != null
                 && (line = cons.readLine()) != null) {

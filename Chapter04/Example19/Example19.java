@@ -13,7 +13,7 @@ public class Example19 {
         System.out.println("Original list: " + array);
 
         Collections.sort(array);
-
+        //Get the sorted order in Arraylist by using sort function. Instead in TreeMap it is sorted automatically by default
         System.out.println("Modified list: " + array);
     }
 }
